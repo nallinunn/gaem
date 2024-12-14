@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.container{
+    background-color: blueviolet;
+}
+
+.banner{
+    text-align: center;
+}
+
+.container-form{
+    background-color:blue;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.name{
+   text-align: center;
+   margin-top: 10rem;
+}
+
+.container-game{
+    text-align: center;
+}
+
+.username{
+    color: black;
+    border-bottom: 1rem;
+    width:10rem;
+    height: 1.5rem;
+    border-radius: 25px;
+    width:12rem;
+}
+
+button{
+    padding: 8px 8px;
+    font-size: 0.9rem 7%;
+    color: #ffffff;
+    background-color: #6c5ce7;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a29bfe;
+}
+
+.result{
+    color:white;
+    text-align: center;
+    font-size: 1rem 7%;
+}
+
+p{
+    color:white;
+}
+
+/* RESPONSIF */
+@media (max-width: 1024px){
+    .banner{
+        font-size: 1.2rem;
+    }
+
+    .result{
+        font-size: 1rem;
+    }
+}
+
+/* HP */
+@media (min-width: 768px){
+    .banner{
+        font-size: 1rem;
+        
+    }
+
+    .result{
+        font-size: 1rem;
+    }
+}
